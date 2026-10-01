@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms & Conditions — ShopEase</title>
+<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<div id="site-header"></div>
+<div class="container" style="max-width:760px; padding-top:30px; padding-bottom:50px;">
+  <h1 class="page-title">Terms &amp; Conditions</h1>
+  <div class="panel">
+    <p>By using <span id="company-name">ShopEase</span>, you agree to the following terms.</p>
+    <h3>Orders</h3>
+    <p>All orders are subject to product availability. Prices and GST shown at checkout are final at the time of order placement.</p>
+    <h3>Payments</h3>
+    <p>We currently support Cash on Delivery. Online payment options will be enabled once integrated with a payment gateway.</p>
+    <h3>Account Responsibility</h3>
+    <p>You are responsible for maintaining the confidentiality of your account password and for all activity under your account.</p>
+    <h3>Limitation of Liability</h3>
+    <p>We are not liable for indirect or consequential damages arising from the use of this website, to the extent permitted by law.</p>
+    <p style="color:var(--gray-500); font-size:12.5px;">This is placeholder legal text. Replace it with content reviewed by your legal counsel before going live.</p>
+  </div>
+</div>
+<div id="site-footer"></div>
+<script src="/js/api.js"></script>
+<script src="/js/common.js"></script>
+<script>(async()=>{await ShopEase.init(); const c=await ShopEase.loadConfig(); document.getElementById('company-name').textContent=c.company.name;})();</script>
+</body>
+</html>

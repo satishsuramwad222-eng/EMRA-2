@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ADM-000001",
+    "email": "admin@shopease.example",
+    "passwordHash": "$2a$10$tNaCOzIOPNCqRU/afHqglOk7FslwlhPGJFvVS0iMy3LXY5zfKOGLi",
+    "name": "Store Admin",
+    "createdAt": "2026-09-27T04:52:16.488Z"
+  },
+  {
+    "id": "ADM-000001",
+    "email": "satish@gmail.com",
+    "passwordHash": "$2a$10$SWpRzUW9qY.ySudgomHXu.nXHADNZ2ltl.xvcKGe5Z4Eljn2K5S9e",
+    "name": "Store Admin",
+    "createdAt": "2026-09-27T11:15:16.323Z"
+  },
+  {
+    "id": "ADM-000001",
+    "email": "emragarments@gmail.com",
+    "passwordHash": "$2a$10$xcD6L83CFRWdjXSbr/rVueaYj4hsAFMw3rdH4ecFpNeQdobtB4sBC",
+    "name": "Store Admin",
+    "createdAt": "2026-09-28T13:36:28.806Z"
+  }
+]

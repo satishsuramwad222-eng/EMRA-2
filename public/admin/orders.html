@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manage Orders — ShopEase Admin</title>
+<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<div id="page-content">
+  <div class="admin-toolbar">
+    <h1>Orders</h1>
+    <select id="status-filter" class="status-select">
+      <option value="">All Statuses</option>
+    </select>
+  </div>
+
+  <div id="order-detail-box"></div>
+
+  <div class="table-wrap panel" style="padding:0;">
+    <table class="admin-table">
+      <thead><tr><th>Order ID</th><th>Customer</th><th>Date</th><th>Items</th><th>Total</th><th>Payment</th><th>Status</th><th></th></tr></thead>
+      <tbody id="orders-body"><tr><td colspan="8">Loading...</td></tr></tbody>
+    </table>
+  </div>
+</div>
+
+<script src="/js/api.js"></script>
+<script src="/js/admin/common.js"></script>
+<script src="/js/admin/orders.js"></script>
+</body>
+</html>

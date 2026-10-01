@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — ShopEase</title>
+<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<div id="site-header"></div>
+<div class="container" style="max-width:760px; padding-top:30px; padding-bottom:50px;">
+  <h1 class="page-title">Privacy Policy</h1>
+  <div class="panel">
+    <p>This policy explains what information we collect when you use <span id="company-name">ShopEase</span> and how we use it.</p>
+    <h3>Information We Collect</h3>
+    <p>When you register, we collect your name, email address, mobile number and delivery address. When you place an order, we record the order details needed to fulfil it (items, quantities, price, delivery address).</p>
+    <h3>How We Use Your Information</h3>
+    <p>We use your information to process orders, provide customer support, send order updates, and improve our services. We do not sell your personal information to third parties.</p>
+    <h3>Data Security</h3>
+    <p>Passwords are stored using industry-standard hashing and are never stored or transmitted in plain text. We use secure sessions to protect your account.</p>
+    <h3>Contact</h3>
+    <p>Questions about this policy can be sent to our <a href="/contact.html" style="color:var(--blue-700); font-weight:700;">support team</a>.</p>
+    <p style="color:var(--gray-500); font-size:12.5px;">This is placeholder policy text. Replace it with content reviewed by your legal counsel before going live.</p>
+  </div>
+</div>
+<div id="site-footer"></div>
+<script src="/js/api.js"></script>
+<script src="/js/common.js"></script>
+<script>(async()=>{await ShopEase.init(); const c=await ShopEase.loadConfig(); document.getElementById('company-name').textContent=c.company.name;})();</script>
+</body>
+</html>

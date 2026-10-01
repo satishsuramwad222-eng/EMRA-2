@@ -1,0 +1,18 @@
+[
+  {
+    "id": "USR-000001",
+    "name": "Satish Surumwad",
+    "email": "suramwadsatish77@gmail.com",
+    "mobile": "8010312228",
+    "passwordHash": "$2a$10$XyYXckCQjBz42xsDzuTX.OTCc1FQheTd3lvbZ2m974KkoIFJLf3Mm",
+    "address": {
+      "line1": "begampur",
+      "line2": "",
+      "city": "hauz khas",
+      "state": "new delhi",
+      "pincode": "110001",
+      "country": "India"
+    },
+    "createdAt": "2026-09-27T04:56:23.446Z"
+  }
+]

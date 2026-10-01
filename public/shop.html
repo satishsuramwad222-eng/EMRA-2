@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop All Products — ShopEase</title>
+<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<div id="site-header"></div>
+
+<div class="container">
+  <h1 class="page-title" id="shop-title">All Products</h1>
+  <div class="shop-layout">
+    <aside class="filters">
+      <h3>Category</h3>
+      <div id="category-filters"><div class="skeleton" style="height:80px;border-radius:8px;"></div></div>
+
+      <h3>Price Range</h3>
+      <div class="price-range-row">
+        <input type="number" id="min-price" placeholder="Min">
+        <span>—</span>
+        <input type="number" id="max-price" placeholder="Max">
+      </div>
+      <button class="btn btn-outline btn-sm btn-block" style="margin-top:10px" id="apply-price">Apply</button>
+
+      <h3>Availability</h3>
+      <label><input type="checkbox" id="filter-instock"> In Stock Only</label>
+
+      <h3>Other</h3>
+      <label><input type="checkbox" id="filter-new"> New Arrivals</label>
+      <label><input type="checkbox" id="filter-discount"> On Discount</label>
+
+      <h3>Sort By</h3>
+      <select id="sort-select" style="width:100%; padding:8px; border-radius:6px; border:1px solid var(--gray-300);">
+        <option value="">Relevance</option>
+        <option value="price_asc">Price: Low to High</option>
+        <option value="price_desc">Price: High to Low</option>
+        <option value="newest">Newest First</option>
+      </select>
+
+      <button class="btn btn-primary btn-block" style="margin-top:18px" id="clear-filters">Clear Filters</button>
+    </aside>
+
+    <div>
+      <p id="result-count" style="color:var(--gray-500); font-size:13.5px; margin-top:0;"></p>
+      <div class="product-grid" id="product-grid"><div class="spinner"></div></div>
+    </div>
+  </div>
+</div>
+
+<div id="site-footer"></div>
+
+<script src="/js/api.js"></script>
+<script src="/js/common.js"></script>
+<script src="/js/shop.js"></script>
+</body>
+</html>
